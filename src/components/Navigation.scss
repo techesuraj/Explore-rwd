@@ -1,0 +1,29 @@
+.navbar {
+  background: #FFFFFF;
+  color: rgb(235, 168, 93);
+  height: 100px;
+
+
+  .navbar-list{
+    list-style-type: none;
+    display:flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    .navbar-list__link{
+      text-transform: uppercase;
+      padding:20px;
+      a {
+        text-decoration:none;
+        color: #322E2D;
+        &:hover{
+          color: #EF3F17;
+        }
+      }
+
+    }
+  }
+}
+h1 {
+  font-size: 40px;
+  margin-top: 30px;
+}
